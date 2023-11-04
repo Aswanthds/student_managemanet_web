@@ -6,7 +6,8 @@ import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.web);
+  //await Firebase.initializeApp(options: DefaultFirebaseOptions.web);  From firebase_options.dart
+  
   runApp(const MyApp());
 }
 
