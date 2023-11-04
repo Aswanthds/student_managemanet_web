@@ -10,13 +10,6 @@ void main() async {
   runApp(const MyApp());
 }
 
-/* 
- apiKey: "AIzaSyDid3fbcHJ5Y-BtLIDSEbE4C6eAljPVdzg",
-          appId: "1:645333407510:web:ae63a91837a479264de237",
-          messagingSenderId: "645333407510",
-          storageBucket: "studentmanagemnetweb.appspot.com",
-          projectId: "studentmanagemnetweb"
-*/
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
